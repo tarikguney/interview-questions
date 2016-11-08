@@ -43,7 +43,7 @@ The SOLID principles can be implemented using various Design Patterns. The SOLID
 
 **Note**: Many of these principles, concepts, and paradigms are language-agnostic, meaning that they can be used in almost any type of language as long as the language supports some of the vital constructs.
 
-Overall Skills and Persoality Traits
+## Overall Skills and Personality Traits
 
 | Problem Solving Skills  | Data Structure  | Algoritms  | Programming Concepts  | Personality  |
 |---|---|---|---|---|
@@ -53,4 +53,19 @@ Overall Skills and Persoality Traits
 |  | Array  |  | Abstraction & Encapsulation  | Friendly  |
 |  | Map  |   |   | Calm |
 
+## Personality
+
+As everyone usually agrees, the personality of a candidate is important factor to hire him. Some of the traits can be as follows (YourDictionary, n.d.):
+
+1. Being honest no matter what the consequences are is one personality trait people should aspire to.
+2. Having responsibility for all of your actions and being a little bit of a perfectionism are also personality traits.
+3. Adaptability and compatibility are great and can help you get along with others.
+4. Having the drive to keep going, and having compassion and understanding are positive personality traits.
+5. Patience is a virtue and also another trait.
+6. Getting up the courage to do what’s right in those tough situations and loyalty to your friends and loved ones are also personality traits.
+
 Depending on the seniority level, what's being looked for can change. However, the personality is important in any case.
+
+## References
+
+YourDictionary. (n.d.). Examples of personaliy traits. Retrieved from http://examples.yourdictionary.com/examples-of-personality-traits.html
