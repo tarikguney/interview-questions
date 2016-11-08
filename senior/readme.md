@@ -10,6 +10,12 @@ object oriented programming and design, this not an absolute other languages suc
 oriented. They are adept in risk management and most important of all they can communicate the before mentioned to their peers (Stackoverflow, 
 2014). 
 
+## What to expect in this folder?
+
+This folder contains questions that can be asked senior level candidates. They can either be randomly selected or depending on where the candidate 
+shines.
+
+
 ## References
 
 Stackoverflow. (2014). When should you call yourself a senior developer? Retrieved from 
