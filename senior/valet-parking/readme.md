@@ -24,47 +24,27 @@ The code sample in the repository is A solution, not THE solution. It is develop
 
 # Question for Interviewee
 
-In this exercise, we will write a valet parking application. In valet parking, a person, who is called valet, takes a car from a customer waiting in the queue and parks it to a given parking lot. 
+In this exercise, we will write a fictional valet parking application. Simply speaking, in a valet parking service, a person called valet parks customers' cars to designated parking lots. Valet parking service is usually used in expensive restaurants and hotels. 
 
-In our example, there will be 4 cars (Mazda, Mercedes, Toyota, and BMW) in a string queue (`new Queue(new string[]{"Mazda", "Toyota", "BMW", "Mercedes"}`) waiting for a valet to take and park them in two parking lots, named South and North. North parking lot has only 7 total spaces, whereas, the South parking lot has 5.
+In our valet parking example, there will be three major components playing roles in the parking process:
 
-We keep two pieces of information about each car: 
+1. Three types of vehicle: Sedan, Van, and Truck. For each vehicle, we store their Name (e.g. "Mazda") and Engine Size (e.g. "2.5", "3.0"). 
+2. Two types of parking lot: North and South. **There can be many parking lots as of types North and South.** Although for now, there will be only two parking lots per parking lot types. Let's name north parking lots "N1-PL" and "N2-PL", and south parking lots as "S1-PL" and "S2-PL". All the north parking lots have only 10 parking spaces each, whereas, the south parking lots have 15 spaces each.
+3. Two types of valets: Junior and Senior. There can be many junior or senior valets. For now, let's have "Michael" as senior valet and "Jack" as junior valet.
 
-1. Name. It is simply the name of the car such as "Mazda", "Toyota", etc. No model or year information is required in the naming.
-2. Engine Size. An engine size can be 2.5, 3.0, 5.9, etc. 
+The junior and senior valets behave differently when parking customers' cars:
 
-There are two valets who are responsible for the parking:
+1. The junior valets park **randomly** to any available parking spot.
+2. The senior valets park in **an orderly fashion** to the available parking spots.
 
-1. Michael
-2. Jack
+Our parking scenario will look like the following:
 
-We keep two pieces of information about each valet:
+There are 4 cars in the queue and they are: Two sedans: Toyota and Mazda both with an engine size 2.5; one van: "Mercedes" with an engine size 3.0; and one truck: GMC with an engine size 5.9. The parking takes place in the following **order**:
 
-1. Name
-2. Age
-
-Michael and Jack have different parking methods:
-
-1. Jack parks randomly to any available parking spot.
-2. Michael parks in an orderly fashion to the available parking spots.
-
-For the sake of simplicity, the following explains how the parking takes place:
-
-1. Mazda is taken by Michael and parked to South Parking.
-2. Mercedes is taken by Jack and parked to South Parking.
-3. Toyota is taken by Jack and parked to North Parking.
-4. BMW is taken by Michael and parked to North Parking.
-
-## Important
-
-We can have as many valet, parking lot, and car as we want. Also, a valet can park any car in any parking lot.
-
-## Tips
-
-1. We don't care if the parking was succesful or not.
-2. There are three components: Valet, Parking Lot, and Car.
-3. The components should be loosely coupled.
-4. We don't worry for the logic to take a car out. We only care parking a car.
+1. The 16-year old Jack gets the Mazda from the queue and parks it to N1-PL parking lot.
+2. The 30-year old Michael gets Toyota and parks it into S1-PL parking lot.
+3. The same junior Jack parks Mercedes to the N2-PL parking lot.
+4. The same senior Michael parks the GMC to the S2-PL parking lot.
 
 # Execution Result
 
