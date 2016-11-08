@@ -24,6 +24,18 @@ The code sample in the repository is A solution, not THE solution. It is develop
 
 # Question for Interviewee
 
+## Motivation
+
+The following exercise will mostly check your object-oriented programming skills. You should be able to use basic OOP principles to represent 
+domain level objects in your code, create association between objects, encapsulate implementation details, abstract objects to decouple the 
+various components of your architecture, and your comfortable level with designing and implementing algorithms to accomplish the required actions.
+
+## Tips
+
+In the following exercise, we don't care where the data are coming from. Let's assume that it is coming from a hardcoded queue. 
+
+## Valet Parking Exercise
+
 In this exercise, we will write a fictional valet parking application. Simply speaking, in a valet parking service, a person called valet parks customers' cars to designated parking lots. Valet parking service is usually used in expensive restaurants and hotels. 
 
 In our valet parking example, there will be three major components playing roles in the parking process:
@@ -51,3 +63,4 @@ There are 4 cars in the queue and they are: Two sedans: Toyota and Mazda both wi
 !["result"](result.png)
 
 Developed with Visual Code and DOTNET CORE with (love)...
+
