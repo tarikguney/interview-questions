@@ -47,16 +47,23 @@ In our valet parking example, there will be three major components playing roles
 The junior and senior valets behave differently when parking customers' cars:
 
 1. The junior valets park **randomly** to any available parking spot.
-2. The senior valets park the cars to the next available spot starting from the beginning.
+2. The senior valets park the cars to the **next available spot** starting from the beginning.
 
 Our parking scenario will look like the following:
 
-There are 4 cars in the queue and they are: Two sedans: Toyota and Mazda both with an engine size 2.5; one van: "Mercedes" with an engine size 3.0; and one truck: GMC with an engine size 5.9. The parking takes place in the following **order**:
+There are 4 cars in the queue and they are: 
+1. Two sedans: Toyota Camry (11111) and Mazda CX5 (22222), 
+2. One van: Mercedes Sprinter (33333)
+3. One truck: GMC (44444). 
+
+The parking takes place in the following **order**:
 
 1. The 16-year old Jack gets the Mazda from the queue and parks it to N1-PL parking lot.
 2. The 30-year old Michael gets Toyota and parks it into S1-PL parking lot.
 3. Jack parks Mercedes to the N2-PL parking lot.
 4. Michael parks the GMC to the S2-PL parking lot.
+
+Lastly, we will print out all filled and empty spots for each parking lot to the console.
 
 # Execution Result
 
