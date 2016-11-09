@@ -27,12 +27,12 @@ The code sample in the repository is A solution, not THE solution. It is develop
 ## Motivation
 
 The following exercise will mostly check your object-oriented programming skills. You should be able to use basic OOP principles to represent 
-domain level objects in your code, create association between objects, encapsulate implementation details, abstract objects to decouple the 
-various components of your architecture, and your comfortable level with designing and implementing algorithms to accomplish the required actions.
+domain level objects in your code, create proper associations between objects, encapsulate implementation details, abstract objects to decouple the 
+various components of your architecture, and also your comfort level with designing and implementing algorithms to accomplish the required actions. 
 
 ## Tips
 
-In the following exercise, we don't care where the data are coming from. Let's assume that it is coming from a hardcoded queue. 
+The vehicles can be hard-coded. We don't care about if they are coming from a database.
 
 ## Valet Parking Exercise
 
@@ -40,14 +40,14 @@ In this exercise, we will write a fictional valet parking application. Simply sp
 
 In our valet parking example, there will be three major components playing roles in the parking process:
 
-1. Three types of vehicle: Sedan, Van, and Truck. For each vehicle, we store their Name (e.g. "Mazda") and Engine Size (e.g. "2.5", "3.0"). 
+1. Three types of vehicle: Sedan, Van, and Truck. For each vehicle that we create from the given vehicle types, we capture the following pieces of information: Make and Model (e.g. "Honda Civic") and Plate Number (e.g. "ATB455"). 
 2. Two types of parking lot: North and South. **There can be many parking lots as of types North and South.** Although for now, there will be only two parking lots per parking lot types. Let's name north parking lots "N1-PL" and "N2-PL", and south parking lots as "S1-PL" and "S2-PL". All the north parking lots have only 10 parking spaces each, whereas, the south parking lots have 15 spaces each.
 3. Two types of valets: Junior and Senior. There can be many junior or senior valets. For now, let's have "Michael" as senior valet and "Jack" as junior valet.
 
 The junior and senior valets behave differently when parking customers' cars:
 
 1. The junior valets park **randomly** to any available parking spot.
-2. The senior valets park in **an orderly fashion** to the available parking spots.
+2. The senior valets park the cars to the next available spot starting from the beginning.
 
 Our parking scenario will look like the following:
 
@@ -55,12 +55,11 @@ There are 4 cars in the queue and they are: Two sedans: Toyota and Mazda both wi
 
 1. The 16-year old Jack gets the Mazda from the queue and parks it to N1-PL parking lot.
 2. The 30-year old Michael gets Toyota and parks it into S1-PL parking lot.
-3. The same junior Jack parks Mercedes to the N2-PL parking lot.
-4. The same senior Michael parks the GMC to the S2-PL parking lot.
+3. Jack parks Mercedes to the N2-PL parking lot.
+4. Michael parks the GMC to the S2-PL parking lot.
 
 # Execution Result
 
 !["result"](result.png)
 
 Developed with Visual Code and DOTNET CORE with (love)...
-
