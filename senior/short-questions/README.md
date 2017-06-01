@@ -11,6 +11,12 @@ public class Sparta : Place
     }
 }
 ```
+Calling as following:
+
+```
+Sparta s = new Sparta();
+s.MakeItReturnFalse();
+```
 
 ## Solution
 ```
