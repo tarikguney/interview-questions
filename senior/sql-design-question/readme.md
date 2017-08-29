@@ -35,6 +35,6 @@ Currently, the online shopping cart website sells the following items:
 
 1. Design the database with the given information above
 2. Write SQL query that brings all the orders with their items Brandon J. Srinath has, including the information about who the order belongs to.
-3. Bring orders placed after 01/01/2009 by Brandon J. Srinath
+3. Bring orders placed after 01/01/2011 by Brandon J. Srinath
 4. Calculate and bring the most sold product.
 5. Calculate and bring the most sold product among the ones that Brandon J. Srinath purchased.
